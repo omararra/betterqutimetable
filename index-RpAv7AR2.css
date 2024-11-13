@@ -1,0 +1,139 @@
+@import"https://fonts.cdnfonts.com/css/helvetica-neue-55";h2,p {
+    text-align: center
+}
+
+.step {
+    margin-top: 36px
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #8e1837;
+    padding: 24px
+}
+
+h1>span {
+    font-weight: 300;
+    color: #5e5e5e
+}
+
+h2 {
+    font-weight: 300;
+    color: #5e5e5e
+}
+
+h2>span {
+    font-weight: 500;
+    color: #8e1837
+}
+
+p {
+    color: #343a40
+}
+
+.instructions {
+    padding: 0 24px
+}
+
+a:active,a:visited,a {
+    color: #8e1837
+}
+
+.input-container {
+    display: grid;
+    place-content: center
+}
+
+textarea {
+    resize: none;
+    padding: 12px;
+    border: 2px solid #343a40
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    background-color: #8e1837;
+    font-weight: 500;
+    color: #fff;
+    font-size: large;
+    text-align: center
+}
+
+._scheduleContainer_kx8sc_1 {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    margin: auto
+}
+
+._day_kx8sc_7 {
+    width: 200px;
+    border-top: 1px solid #6c757d;
+    border-left: 1px solid #6c757d
+}
+
+._dayName_kx8sc_12 {
+    font-weight: 500;
+    text-align: center
+}
+
+._courseContainer_kx8sc_16 {
+    position: relative;
+    height: fit-content;
+    z-index: 2
+}
+
+._course_kx8sc_16 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+._bold_kx8sc_28 {
+    font-weight: 500;
+    font-size: 15px
+}
+
+._course_kx8sc_16>p {
+    width: 80%;
+    color: #fff;
+    font-weight: 300
+}
+
+._timesContainer_kx8sc_37 {
+    width: 1080px;
+    top: 63px;
+    left: -80px;
+    position: absolute
+}
+
+._time_kx8sc_37 {
+    position: absolute;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid #6c757d;
+    border-right: 1px solid #6c757d;
+    border-top: 1px solid #6c757d
+}
+
+._bottom_kx8sc_53 {
+    width: 1085px;
+    position: absolute;
+    z-index: 5;
+    height: 1px;
+    left: -80px;
+    background-color: #6c757d;
+    bottom: -1px
+}
+
+* {
+    font-family: Helvetica Neue,"sans-serif"
+}
